@@ -58,6 +58,7 @@ export function TaskForm({ initialData, onSuccess }: Props) {
       {/* Title */}
       <div>
         <Label htmlFor="title">Title</Label>
+        <br/>
         <Controller
           name="title"
           control={control}
